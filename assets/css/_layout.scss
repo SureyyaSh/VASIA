@@ -1,0 +1,65 @@
+@import './mixin';
+@import './resetting';
+
+
+header{
+    .headerTop {
+        padding: 5px;
+        background-color: rgb(50, 50, 50);
+        position: relative;
+        font-size: 14px;
+
+        @include responsive(992px) {
+            display: none;
+        }
+
+        .left {
+            cursor: pointer;
+
+            .social{
+                border-right: 1px solid white;
+                i{
+                    color: white;
+                    margin-right: 10px;
+                }
+            }
+            .phone{
+                color: white;
+                i{
+                    margin-left: 20px;
+                }
+            }
+        }
+
+        .right {
+            .contact{
+                color: white;
+                display: flex;
+                .contact-sign{
+                    border-right: 1px solid white;
+                    margin-right: 10px;
+                }
+                .contact-lang{
+                    border-right: 1px solid white;
+                    margin-right: 10px;
+                }
+                span{
+                    margin-right: 17px;
+                    
+                }
+            }
+        }
+
+
+
+    }
+    .headerbottom{
+        margin-top: 1rem;
+        .logo{
+            h1{
+                font-size: 2rem;
+                font-weight: 700;
+            }
+        }
+    }
+}

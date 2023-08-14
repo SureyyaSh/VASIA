@@ -1,0 +1,83 @@
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.container-x {
+  width: 95%;
+  margin: 0 auto;
+}
+
+header .headerTop {
+  padding: 5px;
+  background-color: rgb(50, 50, 50);
+  position: relative;
+  font-size: 14px;
+}
+@media screen and (max-width: 992px) {
+  header .headerTop {
+    display: none;
+  }
+}
+header .headerTop .left {
+  cursor: pointer;
+}
+header .headerTop .left .social {
+  border-right: 1px solid white;
+}
+header .headerTop .left .social i {
+  color: white;
+  margin-right: 10px;
+}
+header .headerTop .left .phone {
+  color: white;
+}
+header .headerTop .left .phone i {
+  margin-left: 20px;
+}
+header .headerTop .right .contact {
+  color: white;
+  display: flex;
+}
+header .headerTop .right .contact .contact-sign {
+  border-right: 1px solid white;
+  margin-right: 10px;
+}
+header .headerTop .right .contact .contact-lang {
+  border-right: 1px solid white;
+  margin-right: 10px;
+}
+header .headerTop .right .contact span {
+  margin-right: 17px;
+}
+header .headerbottom {
+  margin-top: 1rem;
+}
+header .headerbottom .logo h1 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+ul li {
+  margin: 0;
+  padding: 0;
+}
+
+.container-x {
+  width: 95%;
+  margin: 0 auto;
+}/*# sourceMappingURL=main.css.map */
